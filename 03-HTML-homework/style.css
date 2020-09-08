@@ -19,6 +19,10 @@ table th {
 table tr {
   border: 1px solid #000000;
 }
+table td {
+  border: 1px solid #000000;
+  text-align: center;
+}
 .forms {
   min-height: 400px;
   display: flex;
