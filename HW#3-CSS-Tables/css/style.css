@@ -55,7 +55,7 @@ i.white {
 }
 .search input {
   border: none;
-
+  color: #ffffff;
   padding: 0 40px;
   background: url(../img/search.svg) no-repeat #707070;
 
