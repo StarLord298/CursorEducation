@@ -68,3 +68,6 @@ i.white {
   color: #ffffff;
   font-weight: bold;
 }
+.simple img {
+  margin-right: 5px;
+}
