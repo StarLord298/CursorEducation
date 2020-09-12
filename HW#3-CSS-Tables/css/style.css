@@ -20,7 +20,9 @@ body {
   box-shadow: 0 0 0 1px #ffffff;
   border-radius: 8px;
 }
-
+td {
+  width: 33%;
+}
 .simple th {
   font-weight: 700;
 }
