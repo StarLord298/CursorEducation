@@ -27,7 +27,7 @@ li {
 .header_navbar {
   padding: 0px 167px 0 168px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .header_menu {
@@ -80,7 +80,7 @@ li {
   cursor: pointer;
 }
 .language {
-  padding: 0 12px;
+  padding: 0 14px;
   text-transform: uppercase;
   font-style: normal;
   font-weight: normal;
