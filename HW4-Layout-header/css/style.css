@@ -26,7 +26,7 @@ li {
 .header_navbar {
   padding: 59px 168px 0 166px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .header_menu {
