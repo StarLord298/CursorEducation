@@ -9,16 +9,18 @@ a {
 li {
   list-style: none;
 }
-body {
+/* body {
   background: black;
-}
+} */
 .wrapper {
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%;
   margin: 0 auto;
 }
 
 .header_wrapper {
   min-height: 785px;
+  height: 100%;
   background: url(../img/Bg.png) center/cover no-repeat;
 }
 .header_navbar {
