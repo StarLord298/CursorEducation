@@ -19,12 +19,13 @@ li {
 }
 
 .header_wrapper {
-  min-height: 785px;
+  padding: 59px 0 187px 0;
+  /* min-height: 785px; */
   height: 100%;
   background: url(../img/Bg.png) center/cover no-repeat;
 }
 .header_navbar {
-  padding: 59px 168px 0 166px;
+  padding: 0px 167px 0 168px;
   display: flex;
   justify-content: space-between;
   align-items: center;
