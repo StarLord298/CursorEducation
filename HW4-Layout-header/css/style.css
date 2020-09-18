@@ -1,9 +1,13 @@
 * {
   margin: 0;
+
   font-family: "Lato", sans-serif;
 }
 a {
   text-decoration: none;
+}
+ul {
+  padding: 0;
 }
 li {
   list-style: none;
@@ -21,7 +25,6 @@ body {
 .header_wrapper {
   padding-top: 59px;
   /* min-height: 785px; */
- 
 }
 .header_navbar {
   /* padding: 0px 167px 0 168px; */
@@ -33,6 +36,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  white-space: nowrap;
 }
 .header_menu li {
   padding-right: 21px;
@@ -53,6 +57,7 @@ body {
   padding: 0 2px;
 }
 .logo {
+  white-space: nowrap;
   margin-right: 161px;
   text-transform: uppercase;
   font-style: normal;
@@ -109,7 +114,7 @@ body {
   border: 1px solid #000000;
   color: #000000;
 }
-.main_title  {
+.main_title {
   margin-top: 177px;
   text-align: center;
   font-style: normal;
@@ -147,6 +152,7 @@ body {
   color: #ed4c5c;
   outline: none;
   border: 0;
+  margin-bottom: 187px;
 }
 .btn:hover {
   color: #ffffff;
