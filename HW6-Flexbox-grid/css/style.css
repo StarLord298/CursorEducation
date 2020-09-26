@@ -224,7 +224,7 @@ main {
   align-items: center;
   letter-spacing: 0.005em;
   color: #212353;
-  background: #e5e5e5;
+  background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%);
   border: none;
   outline: none;
   cursor: pointer;
