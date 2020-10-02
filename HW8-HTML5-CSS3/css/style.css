@@ -275,6 +275,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .active {
   font-family: Baloo Bhai;
@@ -283,6 +284,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 .course_cards {
   margin-top: 10px;
