@@ -572,6 +572,9 @@ footer {
     background: url(../img/bg_second_section_responsive.svg) bottom/contain
       no-repeat;
   }
+  .experience_match {
+    margin-top: 0;
+  }
   .info {
     margin: 0;
     height: 521px;
