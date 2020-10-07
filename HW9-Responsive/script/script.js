@@ -1,11 +1,9 @@
 const dots = document.querySelectorAll(".dot");
 
-for (let i = 0; i <= dots.length; i++) {
-  dots[0].style.background = "#828282";
-  dots[1].style.background = "#979595";
-  dots[2].style.background = "#B2B0B0";
-  dots[3].style.background = "#CDCBCB";
-  dots[4].style.background = "#E2E1E1";
-  dots[5].style.background = "#EEEEEE";
-  dots[6].style.background = "#F7F7F7;";
-}
+let opacity = 1;
+
+dots.forEach((element) => {
+  opacity -= 0.1;
+  opacity = opacity < 0 ? 0 : opacity > 1 ? 1 : opacity;
+  element.style.background = `rgba(51, 51, 51, ${opacity})`;
+});
