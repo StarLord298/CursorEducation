@@ -42,6 +42,7 @@
 .logo {
   align-self: center;
 }
+
 .arrow {
   align-self: center;
   margin-right: 16px;
@@ -236,8 +237,6 @@
   width: 100%;
 }
 .content-item img {
-    display: block;
-    margin: 0 auto;
-  
+  display: block;
+  margin: 0 auto;
 }
-
