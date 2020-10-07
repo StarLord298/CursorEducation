@@ -1,0 +1,241 @@
+@import url(fonts/fonts.css);
+* {
+  /* margin: 0; */
+  font-family: "HelveticaNeueCyr";
+}
+.header_border {
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 7px;
+  margin-left: 18px;
+}
+.header_icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.circle {
+  width: 22px;
+  height: 22px;
+  background: #4094ef;
+  border-radius: 100%;
+}
+
+.header_wrapper {
+  margin-top: 9px;
+}
+.search input {
+  width: 216px;
+  height: 29px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  outline: none;
+  align-self: center;
+  padding-left: 89px;
+  background: url(../img/search.svg) no-repeat;
+  background-position: 72px 50%;
+}
+.search input:focus {
+  background-position: 5px 50%;
+  padding-left: 25px;
+}
+.logo {
+  align-self: center;
+}
+.arrow {
+  align-self: center;
+  margin-right: 16px;
+  margin-left: 8px;
+  width: 33px;
+  height: 29px;
+  background: #4094ef;
+  border-radius: 3px;
+}
+.arrow img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.dots {
+  width: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+.avatar {
+  cursor: pointer;
+}
+.dot {
+  width: 4px;
+  height: 4px;
+  background: #262626;
+  border-radius: 100%;
+}
+.follow_btn {
+  align-self: center;
+  margin-left: 26px;
+}
+.follow_btn button {
+  text-align: center;
+  width: 97px;
+  height: 29px;
+  background: #4094ef;
+  border-radius: 3px;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.name {
+  align-self: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  text-align: center;
+  color: #262626;
+  margin: 0;
+}
+
+.main_header {
+  margin-top: 29px;
+}
+.info {
+  margin-top: 24px;
+  width: 52%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #262626;
+  align-self: center;
+  justify-content: space-between;
+}
+.info span {
+  font-weight: 700;
+}
+.name_subtitle {
+  margin-top: 21px;
+}
+.name_subtitle h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #262626;
+  margin: 0;
+}
+.descr {
+  width: 83%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+}
+.link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #133768;
+}
+.stories_item {
+  margin-top: 56px;
+  margin-bottom: 55px;
+}
+.item {
+  width: 87px;
+  height: 87px;
+  border: 1px solid #dbdbdb;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stories_logo img {
+  display: block;
+  margin: 0 auto;
+}
+.stories_logo {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.subtitle {
+  margin-top: 15px;
+}
+.subtitle h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #262626;
+  margin-bottom: 0;
+}
+.header_icon {
+  position: relative;
+}
+.message {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background: #dc565b;
+  top: -2px;
+  left: 14px;
+  display: none;
+}
+.message span {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+.menu {
+  height: 36px;
+  border-top: 1px solid #dbdbdb;
+}
+
+.menu_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.09em;
+  color: #262626;
+  padding-top: 19px;
+  cursor: pointer;
+}
+.menu_item + .menu_item {
+  margin-left: 64px;
+}
+.menu_item img {
+  display: block;
+  margin-right: 5px;
+}
+.menu_item:hover {
+  border-top: 1px solid #000000;
+}
+.content {
+  margin-top: 19px;
+}
+.content-item {
+  margin-bottom: 25px;
+}
+.content-item img {
+    display: block;
+    margin: 0 auto;
+}
+
