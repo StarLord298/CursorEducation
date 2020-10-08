@@ -240,3 +240,26 @@
   display: block;
   margin: 0 auto;
 }
+@media screen and (max-width: 560px) {
+  .logo img {
+    display: block;
+    margin: 0 auto;
+  }
+  .search input {
+    display: block;
+    margin: 0 auto;
+  }
+  .avatar img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .stories-item {
+    margin-left: 10px;
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}
