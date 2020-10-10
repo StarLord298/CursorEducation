@@ -19,7 +19,7 @@
   align-items: center;
 }
 .hamburger_active .handle {
-  margin-bottom: -2px;
+  margin-bottom: -5px;
 }
 .hamburger_active .handle:nth-child(1) {
   transform: rotate(-45deg);
@@ -32,11 +32,12 @@
 }
 
 .handle {
-  width: 40px;
-  height: 2px;
+  width: 80px;
+  height: 5px;
   display: flex;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
   transition: 0.5s all;
+  cursor: pointer;
 }
 .firstpart {
   height: 100%;
@@ -69,21 +70,22 @@
   width: 20%;
   background: #ffffff;
 }
-.handle:hover .firstpart {
+.hamburger_active:hover .firstpart {
   box-shadow: 0 0 10px rgba(0, 155, 0, 0.9);
 }
-.handle:hover .thirtpart {
+.hamburger_active:hover .thirtpart {
   background: #006400;
   box-shadow: 0 0 10px rgba(0, 155, 0, 0.9);
 }
-.handle:hover .firstpart-right {
+.hamburger_active:hover .firstpart-right {
   background: #990000;
   box-shadow: 0 0 10px rgba(155, 0, 0, 0.9);
 }
-.handle:hover .thirtpart-right {
+.hamburger_active:hover .thirtpart-right {
   background: #ffffff;
   box-shadow: 0 0 10px rgba(155, 0, 0, 0.9);
 }
+
 /* HAMBURGER END */
 
 /* PENDULUM START */
