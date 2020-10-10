@@ -69,20 +69,19 @@
   width: 20%;
   background: #ffffff;
 }
-.handle .firstpart:hover {
+.handle:hover .firstpart {
+  box-shadow: 0 0 10px rgba(0, 155, 0, 0.9);
+}
+.handle:hover .thirtpart {
   background: #006400;
   box-shadow: 0 0 10px rgba(0, 155, 0, 0.9);
 }
-.handle .thirtpart:hover {
-  background: #006400;
-  box-shadow: 0 0 10px rgba(0, 155, 0, 0.9);
-}
-.handle .firstpart-right:hover {
+.handle:hover .firstpart-right {
   background: #990000;
   box-shadow: 0 0 10px rgba(155, 0, 0, 0.9);
 }
-.handle .thirtpart-right:hover {
-  background: #990000;
+.handle:hover .thirtpart-right {
+  background: #ffffff;
   box-shadow: 0 0 10px rgba(155, 0, 0, 0.9);
 }
 /* HAMBURGER END */
