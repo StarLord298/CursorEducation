@@ -1,0 +1,204 @@
+@media screen and (max-width: 760px) {
+  body {
+    width: 100%;
+  }
+  .header {
+    width: 80%;
+    flex-direction: column;
+    padding: 0;
+    nav {
+      width: 60%;
+    }
+    &_navbar {
+      justify-content: space-between;
+    }
+    &_logo {
+      padding: 10px 0;
+    }
+  }
+  .top_page_wrapper {
+    background: #e7ecff;
+  }
+  .introduce {
+    width: 65%;
+    margin-top: 20px;
+    padding: 40px;
+    h1 {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      font-size: 25px;
+      text-align: center;
+      line-height: 33px;
+      padding-bottom: 10px;
+    }
+    p {
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      text-align: 13px;
+    }
+    p + p {
+      margin-top: 0;
+    }
+    &_btn {
+      display: flex;
+      flex-direction: column;
+      .btn_blue {
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+      }
+      .btn_white {
+        display: block;
+        margin: 0 auto;
+        background: #e7ecff;
+        margin-top: 10px;
+      }
+    }
+  }
+  .preference {
+    width: 65%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+    &_descr {
+      margin-top: 10px;
+      margin-right: 0px;
+    }
+    h2 {
+      width: 100%;
+      text-align: center;
+      font-size: 23px;
+    }
+    p {
+      width: 310px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 14px;
+    }
+    p + p {
+      margin-top: 0px;
+    }
+    &_titles {
+      width: 310px;
+      margin: 0 auto;
+      margin-top: 20px;
+      flex-direction: column;
+      justify-content: center;
+
+      &_item {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          width: 90%;
+        }
+      }
+      &_item + &_item {
+        margin-left: 0px;
+      }
+    }
+  }
+  .preferense_image {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+  .benefits {
+    width: 65%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    &_img {
+      display: block;
+      margin: 0 auto;
+      margin-right: 0px;
+      margin-top: 10px;
+      width: 100%;
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+      }
+    }
+    &_descr {
+      h4 {
+        font-size: 23px;
+        text-align: center;
+      }
+      p {
+        width: 100%;
+        text-align: center;
+        font-size: 13px;
+      }
+      p + p {
+        margin-top: 10px;
+      }
+      button {
+        display: block;
+        margin: 10px auto;
+      }
+    }
+  }
+  .price {
+    width: 100%;
+    height: 610px;
+    &_descr {
+      h3 {
+        padding-top: 25px;
+        font-size: 23px;
+        text-align: center;
+      }
+      p {
+        width: 80%;
+        padding-bottom: 10px;
+      }
+    }
+    &_btn {
+      span {
+        margin: 30px 0;
+      }
+    }
+  }
+
+  .footer {
+    width: 100%;
+    &_wrapper {
+      padding: 0;
+    }
+    &_top {
+      height: 170px;
+      flex-direction: column-reverse;
+      justify-content: space-around;
+      padding-bottom: 10px;
+    }
+    &_bottom {
+      padding-top: 10px;
+      height: 70px;
+      justify-content: space-around;
+      flex-direction: column;
+      &_icons {
+        width: 50%;
+      }
+      nav {
+        width: 100%;
+      }
+      &_navbar {
+        width: 100%;
+        justify-content: space-around;
+      }
+    }
+  }
+}
