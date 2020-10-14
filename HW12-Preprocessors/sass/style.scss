@@ -326,6 +326,8 @@ ul {
     padding: 68px 165px 40px 165px;
   }
   &_top {
+    display: block;
+    margin: 0 auto;
     padding-bottom: 47px;
     display: flex;
     justify-content: space-between;
@@ -357,6 +359,8 @@ ul {
   }
   &_bottom {
     width: 100%;
+    display: block;
+    margin: 0 auto;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
