@@ -1,0 +1,41 @@
+.buttons__btn_small {
+  padding: 0;
+  width: 116px;
+  height: 36px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+.buttons__btn_small-width {
+  width: 111px;
+}
+.buttons__btn-block {
+  display: block;
+  margin: 0 auto;
+}
+.buttons__btn_orange {
+  background: #ff3e1d;
+  color: #ffffff;
+}
+.btn-flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.buttons__btn-small-white {
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  text-align: center;
+  color: #2c2c2c;
+}
+.buttons__btn-small-light {
+  background: #ffffff;
+  border: 1px solid #18a0fb;
+  text-align: center;
+  color: #18a0fb;
+}

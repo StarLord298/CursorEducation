@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+.wrapper {
+  margin-top: 44px;
+  margin-left: 58px;
+  padding-bottom: 100px;
+}
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2c2c2c;
+}
+.svg_margin-left {
+  margin: 0;
+  margin-left: 14px;
+}
+.svg_margin-right {
+  margin: 0;
+  margin-right: 14px;
+}
+
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons-big {
+  display: flex;
+  margin-bottom: 73px;
+}
+
+.buttons_small {
+  display: flex;
+}
+.tabs {
+  margin-top: 26px;
+  margin-left: 132px;
+}
+.tabs__small {
+  margin-left: 146px;
+}
+.tabs__search {
+  display: flex;
+}
+.tabs__list {
+  margin-top: 24px;
+  display: flex;
+}
+.tabs__items {
+  margin-top: 24px;
+  display: flex;
+}
+.tabs__search {
+  margin-top: 20px;
+}
+.tabs__small-list {
+  margin-top: 20px;
+  display: flex;
+}
+.buttons__circle {
+  width: 105px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 66px;
+}
+.tags {
+  margin-top: 50px;
+  width: 145px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 14px;
+}
+@import "buttons_big";
+@import "tabs_big";
+@import "buttons_small";
+@import "tabs_small";
+@import "search";
+@import "tags";

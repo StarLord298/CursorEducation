@@ -1,0 +1,45 @@
+.tabs__btn-small {
+  width: 88px;
+  height: 36px;
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+}
+.tabs__search_item {
+  width: 48px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  cursor: pointer;
+}
+
+.tabs__small-list-btn {
+  width: 62px;
+  height: 36px;
+  background: #ffffff;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+}
+.color_black {
+  fill: #000000;
+}
+.tabs__btn-small-active {
+  background: #18a0fb;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  color: #ffffff;
+}

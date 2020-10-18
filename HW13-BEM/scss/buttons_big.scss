@@ -1,0 +1,50 @@
+.buttons__wrapper {
+  width: 642px;
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 20px 20px;
+}
+
+.buttons__btn {
+  width: 144px;
+  height: 46px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.buttons__btn-blue {
+  background: #18a0fb;
+
+  color: #ffffff;
+}
+.btn-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons__btn-gray {
+  background: rgba(224, 224, 224, 0.3);
+  color: #878787;
+}
+.buttons__btn-white {
+  border: 1px solid #e0e0e0;
+  background: #ffffff;
+  text-align: center;
+  color: #2c2c2c;
+}
+.buttons__btn-light {
+  background: #ffffff;
+  border: 1px solid #18a0fb;
+  text-align: center;
+  color: #18a0fb;
+}

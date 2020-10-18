@@ -1,0 +1,26 @@
+.tags__item {
+  width: 65px;
+  height: 28px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  outline: none;
+  background: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  color: #2c2c2c;
+  cursor: pointer;
+}
+.tags__item-small {
+  width: 51px;
+}
+.tags__item-img-black {
+  stroke: #2c2c2c;
+}
+.tags__item-img-white {
+  stroke: #ffffff;
+}
+.tags__item-blue {
+  background: #18a0fb;
+  color: #ffffff;
+}
